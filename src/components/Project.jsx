@@ -2,6 +2,7 @@ import React from "react";
 import projectImg1 from "../assets/Movie Web page.png";
 import projectImg2 from "../assets/Screenshot 2025-06-27 064826.png";
 import projectImg3 from "../assets/Screenshot 2025-07-24 183727.png";
+import projectImg4 from "../assets/Calculator.png";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
@@ -56,6 +57,30 @@ const Project = () => {
             <p className="text-gray-600 text-center">
               A movie website that provides information about movies, including
               trailers, reviews, and ratings.
+            </p>
+            <a
+              href="https://codebytosin80.github.io/New_Streamzy_Website/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-950 text-bold bg-white border border-yellow-400 px-4 py-2 rounded hover:bg-yellow-400 hover:text-white transition-colors duration-300">
+              View Project
+            </a>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+            viewport={{ once: false, amount: 0.5 }}
+            className="bg-white shadow-[0_4px_6px_rgba(0,0,0,0.3)] rounded-lg p-4 flex flex-col items-center gap-4">
+            <img src={projectImg4} alt="" />
+            <h1 className="text-2xl font-bold text-red-950">
+              Web Calculator
+            </h1>
+            <span className="text-sm text-gray-800">HTML, CSS, JavaScript</span>
+            <p className="text-gray-600 text-center">
+              A web-based calculator application that performs basic arithmetic
+              operations.
             </p>
             <a
               href="https://codebytosin80.github.io/New_Streamzy_Website/"

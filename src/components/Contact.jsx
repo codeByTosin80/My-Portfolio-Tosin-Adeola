@@ -83,8 +83,8 @@ const Contact = () => {
             Let's Connect
           </h3>
           <div className="flex gap-6 text-2xl">
-            <a href="https://www.tiktok.com/@code_by_tosin?_t=ZS-8yO60NTIpr6&_r=1">
-              <i class="fa-brands fa-tiktok"></i>
+            <a href="https://www.tiktok.com/@code_by_tosin?_t=ZS-8yO60NTIpr6&_r=1" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition">
+              <i className="fab fa-tiktok"></i>
             </a>
             <a
               href="https://x.com/codeByTosin"
